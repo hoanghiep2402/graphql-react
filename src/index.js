@@ -13,7 +13,6 @@ const client= new AppoloClient({
 
 
 
-
 ReactDOM.render(
     <ApolloProvider client={client}>
         <App />
